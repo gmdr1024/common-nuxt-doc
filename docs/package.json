@@ -1,0 +1,15 @@
+{
+  "name": "foo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "honkit build",
+    "init": "honkit init",
+    "pdf": "honkit pdf ./ ./docs.pdf",
+    "start": "honkit serve"
+  },
+  "devDependencies": {
+    "gitbook-plugin-mermaid-newface": "^4.0.2",
+    "honkit": "^3.6.19"
+  }
+}
